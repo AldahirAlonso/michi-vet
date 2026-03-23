@@ -1,0 +1,19 @@
+{
+  "name": "michi-vet",
+  "version": "1.0.0",
+  "description": "Veterinaria de michis.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Aldahir Alonso",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
