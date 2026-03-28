@@ -5,7 +5,7 @@
   "keywords": [],
   "license": "ISC",
   "author": "Aldahir Alonso",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
