@@ -8,7 +8,10 @@ const router = express.Router();
 
 // Ruta Inicio
 router.get('/inicio', (req, res) => {
-    res.send('Inicio');
+    res.render('inicio', {
+        // Agregamos un título dinámico para cada página
+        pagina: 'Inicio'
+    });
 });
 
 // Ruta Nosotros
