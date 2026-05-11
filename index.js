@@ -10,6 +10,14 @@ import router from './routes/index.js';
 // Crear app de Express
 const app = express();
 
+// Importar configuracion de bases de datos
+import db from './config/db.js';
+
+// Probar conexion a la base de datos
+db.authenticate()
+    .then(() => console.log('Conexion a la base de datos exitosa'))
+    .catch(error => console.log('Error al conectar a la base de datos: ', error));
+
 // Habilitar Cors
 app.use(cors());
 
